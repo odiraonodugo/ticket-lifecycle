@@ -1,12 +1,9 @@
-# ticket-lifecycle
-
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
-
+This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. Agent Layla will resolve tickets.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,34 +16,36 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Windows 10</b> (21H2)
 
 <h2>Ticket Lifecycle Stages</h2>
-
 - Intake
 - Assignment and Communication
 - Working the Issue
 - Resolution
 
-<h2>Lifecycle Stages</h2>
+<h2>Resolutions by Priority</h2>
+- 1.Business Critical Outage
+This priority should be set to "Emergency"
+- 2. Personal Computer Issues
+This priority can be "High"
+- 3. Equipement Request
+Normal Priority
+- 4. Password Reset
+Least Priority
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Login as an Agent, in this case we will login as Layla Mahmoud who is a System Admin we created in the previous tutorial. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![0](https://i.imgur.com/hpKyG70.png)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Next we will have a user create a ticket stating that they are unable to access the company website from their mobile device and desktop.
+
+![1](https://i.imgur.com/tB2j8zo.jpeg)
+
+
+The ticket will be an Emergency level, we will asign the ticket, and Layla will resolve this ticket. 
+
+![2](https://i.imgur.com/T6h9GC6.png)
+
+We have contacted Dimitri on the outage in a timely manner, kept in communication, and resolved the issue. 
+
+
+
+
